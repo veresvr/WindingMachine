@@ -292,6 +292,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document16]
+DocumentPath=OutputDocumentation.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document17]
+DocumentPath=Cover page.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DTIKWLBQ
+
 [ProjectVariant1]
 UniqueID=244A7897-6648-4BD3-BF6B-728000ABFF8E
 Description=Production
@@ -301,8 +335,20 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
+Name=CurrentDate
+Value=31.03.2023
+
+[Parameter2]
+Name=VersionRevision
+Value=1.0
+
+[Parameter3]
 Name=Revision
-Value=
+Value=1.0
+
+[Parameter4]
+Name=Project
+Value=Winding Machine Board
 
 [Configuration1]
 Name=Sources
