@@ -326,6 +326,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DTIKWLBQ
 
+[Document18]
+DocumentPath=RELAYS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=244A7897-6648-4BD3-BF6B-728000ABFF8E
 Description=Production
@@ -339,16 +356,16 @@ Name=CurrentDate
 Value=31.03.2023
 
 [Parameter2]
-Name=VersionRevision
-Value=1.0
+Name=Project
+Value=Winding Machine Board
 
 [Parameter3]
 Name=Revision
 Value=1.0
 
 [Parameter4]
-Name=Project
-Value=Winding Machine Board
+Name=VersionRevision
+Value=1.0
 
 [Configuration1]
 Name=Sources
