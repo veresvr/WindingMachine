@@ -162,24 +162,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BHXAKLDR
-
-[Document9]
-DocumentPath=Ethernet.SchDoc
+DocumentPath=Interfaces.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -195,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GWNXQRSM
 
-[Document10]
+[Document9]
 DocumentPath=Ethernet.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -212,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=RS-485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -229,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OPOMCWFD
 
-[Document12]
+[Document11]
 DocumentPath=PWR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MXPAQJKE
 
-[Document13]
+[Document12]
 DocumentPath=Motherboard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,24 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MUGVHCOY
 
-[Document14]
-DocumentPath=USB.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
+[Document13]
 DocumentPath=RS-485.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -297,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=OutputDocumentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -314,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document15]
 DocumentPath=WMM 01 Cover Page.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -331,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DTIKWLBQ
 
-[Document18]
+[Document16]
 DocumentPath=RELAYS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -348,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DFFQXYEK
 
-[Document19]
+[Document17]
 DocumentPath=WMM 04 Insulation Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -365,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BJKUTANX
 
-[Document20]
+[Document18]
 DocumentPath=WMM 03 PWR Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -382,7 +348,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QGBXJNSW
 
-[Document21]
+[Document19]
 DocumentPath=WMM 02 Block Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -408,20 +374,20 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=VersionRevision
-Value=1.0
+Name=CurrentDate
+Value=31.03.2023
 
 [Parameter2]
-Name=Revision
-Value=1.0
-
-[Parameter3]
 Name=Project
 Value=Winding Machine Mainboard
 
+[Parameter3]
+Name=Revision
+Value=1.0
+
 [Parameter4]
-Name=CurrentDate
-Value=31.03.2023
+Name=VersionRevision
+Value=1.0
 
 [Configuration1]
 Name=Sources
